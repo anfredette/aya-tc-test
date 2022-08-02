@@ -5,8 +5,8 @@ edition = "2021"
 publish = false
 
 [dependencies]
-aya = { version = ">=0.11", features=["async_tokio"] }
-aya-log = "0.1"
+aya = { path = "/home/afredette/projects/aya/aya", features=["async_tokio"] }
+aya-log = { path = "/home/afredette/projects/aya/aya-log"}
 tctest-common = { path = "../tctest-common", features=["user"] }
 anyhow = "1.0.42"
 clap = { version = "3.1", features = ["derive"] }
